@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C426777F199C536F00847905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C426777E199C536F00847905 /* Foundation.framework */; };
+		C4267781199C536F00847905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4267780199C536F00847905 /* CoreGraphics.framework */; };
+		C4267783199C536F00847905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4267782199C536F00847905 /* UIKit.framework */; };
+		C4267789199C536F00847905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4267787199C536F00847905 /* InfoPlist.strings */; };
+		C426778B199C536F00847905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C426778A199C536F00847905 /* main.m */; };
+		C426778F199C536F00847905 /* XWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C426778E199C536F00847905 /* XWAppDelegate.m */; };
+		C4267791199C536F00847905 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4267790199C536F00847905 /* Images.xcassets */; };
+		C4267798199C536F00847905 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4267797199C536F00847905 /* XCTest.framework */; };
+		C4267799199C536F00847905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C426777E199C536F00847905 /* Foundation.framework */; };
+		C426779A199C536F00847905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4267782199C536F00847905 /* UIKit.framework */; };
+		C42677A2199C536F00847905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C42677A0199C536F00847905 /* InfoPlist.strings */; };
+		C42677A4199C536F00847905 /* JETabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42677A3199C536F00847905 /* JETabBarControllerTests.m */; };
+		C42677C3199C539600847905 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = C42677B6199C539600847905 /* add.png */; };
+		C42677C4199C539600847905 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C42677B7199C539600847905 /* add@2x.png */; };
+		C42677C5199C539600847905 /* tabbarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = C42677B8199C539600847905 /* tabbarbg.png */; };
+		C42677C6199C539600847905 /* tabbarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C42677B9199C539600847905 /* tabbarbg@2x.png */; };
+		C42677C7199C539600847905 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = C42677BA199C539600847905 /* transparent.png */; };
+		C42677CB199C53EC00847905 /* JETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42677CA199C53EC00847905 /* JETabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C426779B199C536F00847905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4267773199C536F00847905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C426777A199C536F00847905;
+			remoteInfo = JETabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C426777B199C536F00847905 /* JETabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JETabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C426777E199C536F00847905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4267780199C536F00847905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4267782199C536F00847905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4267786199C536F00847905 /* JETabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JETabBarController-Info.plist"; sourceTree = "<group>"; };
+		C4267788199C536F00847905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C426778A199C536F00847905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C426778C199C536F00847905 /* JETabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JETabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		C426778D199C536F00847905 /* XWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWAppDelegate.h; sourceTree = "<group>"; };
+		C426778E199C536F00847905 /* XWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWAppDelegate.m; sourceTree = "<group>"; };
+		C4267790199C536F00847905 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4267796199C536F00847905 /* JETabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JETabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4267797199C536F00847905 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C426779F199C536F00847905 /* JETabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JETabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
+		C42677A1199C536F00847905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C42677A3199C536F00847905 /* JETabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JETabBarControllerTests.m; sourceTree = "<group>"; };
+		C42677B6199C539600847905 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		C42677B7199C539600847905 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		C42677B8199C539600847905 /* tabbarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbarbg.png; sourceTree = "<group>"; };
+		C42677B9199C539600847905 /* tabbarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarbg@2x.png"; sourceTree = "<group>"; };
+		C42677BA199C539600847905 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		C42677C9199C53EC00847905 /* JETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETabBarController.h; sourceTree = "<group>"; };
+		C42677CA199C53EC00847905 /* JETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4267778199C536F00847905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4267781199C536F00847905 /* CoreGraphics.framework in Frameworks */,
+				C4267783199C536F00847905 /* UIKit.framework in Frameworks */,
+				C426777F199C536F00847905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4267793199C536F00847905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4267798199C536F00847905 /* XCTest.framework in Frameworks */,
+				C426779A199C536F00847905 /* UIKit.framework in Frameworks */,
+				C4267799199C536F00847905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4267772199C536F00847905 = {
+			isa = PBXGroup;
+			children = (
+				C4267784199C536F00847905 /* JETabBarController */,
+				C426779D199C536F00847905 /* JETabBarControllerTests */,
+				C426777D199C536F00847905 /* Frameworks */,
+				C426777C199C536F00847905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C426777C199C536F00847905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C426777B199C536F00847905 /* JETabBarController.app */,
+				C4267796199C536F00847905 /* JETabBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C426777D199C536F00847905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C426777E199C536F00847905 /* Foundation.framework */,
+				C4267780199C536F00847905 /* CoreGraphics.framework */,
+				C4267782199C536F00847905 /* UIKit.framework */,
+				C4267797199C536F00847905 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4267784199C536F00847905 /* JETabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C42677AD199C539600847905 /* Images */,
+				C426778D199C536F00847905 /* XWAppDelegate.h */,
+				C426778E199C536F00847905 /* XWAppDelegate.m */,
+				C42677C8199C53BD00847905 /* JETabBarController */,
+				C4267790199C536F00847905 /* Images.xcassets */,
+				C4267785199C536F00847905 /* Supporting Files */,
+			);
+			path = JETabBarController;
+			sourceTree = "<group>";
+		};
+		C4267785199C536F00847905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4267786199C536F00847905 /* JETabBarController-Info.plist */,
+				C4267787199C536F00847905 /* InfoPlist.strings */,
+				C426778A199C536F00847905 /* main.m */,
+				C426778C199C536F00847905 /* JETabBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C426779D199C536F00847905 /* JETabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42677A3199C536F00847905 /* JETabBarControllerTests.m */,
+				C426779E199C536F00847905 /* Supporting Files */,
+			);
+			path = JETabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		C426779E199C536F00847905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C426779F199C536F00847905 /* JETabBarControllerTests-Info.plist */,
+				C42677A0199C536F00847905 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42677AD199C539600847905 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C42677B6199C539600847905 /* add.png */,
+				C42677B7199C539600847905 /* add@2x.png */,
+				C42677B8199C539600847905 /* tabbarbg.png */,
+				C42677B9199C539600847905 /* tabbarbg@2x.png */,
+				C42677BA199C539600847905 /* transparent.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C42677C8199C53BD00847905 /* JETabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C42677C9199C53EC00847905 /* JETabBarController.h */,
+				C42677CA199C53EC00847905 /* JETabBarController.m */,
+			);
+			path = JETabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C426777A199C536F00847905 /* JETabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42677A7199C536F00847905 /* Build configuration list for PBXNativeTarget "JETabBarController" */;
+			buildPhases = (
+				C4267777199C536F00847905 /* Sources */,
+				C4267778199C536F00847905 /* Frameworks */,
+				C4267779199C536F00847905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JETabBarController;
+			productName = JETabBarController;
+			productReference = C426777B199C536F00847905 /* JETabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4267795199C536F00847905 /* JETabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42677AA199C536F00847905 /* Build configuration list for PBXNativeTarget "JETabBarControllerTests" */;
+			buildPhases = (
+				C4267792199C536F00847905 /* Sources */,
+				C4267793199C536F00847905 /* Frameworks */,
+				C4267794199C536F00847905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C426779C199C536F00847905 /* PBXTargetDependency */,
+			);
+			name = JETabBarControllerTests;
+			productName = JETabBarControllerTests;
+			productReference = C4267796199C536F00847905 /* JETabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4267773199C536F00847905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "DNE Technology Co.,Ltd";
+				TargetAttributes = {
+					C4267795199C536F00847905 = {
+						TestTargetID = C426777A199C536F00847905;
+					};
+				};
+			};
+			buildConfigurationList = C4267776199C536F00847905 /* Build configuration list for PBXProject "JETabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4267772199C536F00847905;
+			productRefGroup = C426777C199C536F00847905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C426777A199C536F00847905 /* JETabBarController */,
+				C4267795199C536F00847905 /* JETabBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4267779199C536F00847905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42677C7199C539600847905 /* transparent.png in Resources */,
+				C4267789199C536F00847905 /* InfoPlist.strings in Resources */,
+				C42677C3199C539600847905 /* add.png in Resources */,
+				C42677C5199C539600847905 /* tabbarbg.png in Resources */,
+				C42677C4199C539600847905 /* add@2x.png in Resources */,
+				C42677C6199C539600847905 /* tabbarbg@2x.png in Resources */,
+				C4267791199C536F00847905 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4267794199C536F00847905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42677A2199C536F00847905 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4267777199C536F00847905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42677CB199C53EC00847905 /* JETabBarController.m in Sources */,
+				C426778B199C536F00847905 /* main.m in Sources */,
+				C426778F199C536F00847905 /* XWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4267792199C536F00847905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42677A4199C536F00847905 /* JETabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C426779C199C536F00847905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C426777A199C536F00847905 /* JETabBarController */;
+			targetProxy = C426779B199C536F00847905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4267787199C536F00847905 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4267788199C536F00847905 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C42677A0199C536F00847905 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42677A1199C536F00847905 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42677A5199C536F00847905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C42677A6199C536F00847905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42677A8199C536F00847905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JETabBarController/JETabBarController-Prefix.pch";
+				INFOPLIST_FILE = "JETabBarController/JETabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C42677A9199C536F00847905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JETabBarController/JETabBarController-Prefix.pch";
+				INFOPLIST_FILE = "JETabBarController/JETabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C42677AB199C536F00847905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JETabBarController.app/JETabBarController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JETabBarController/JETabBarController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JETabBarControllerTests/JETabBarControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C42677AC199C536F00847905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JETabBarController.app/JETabBarController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JETabBarController/JETabBarController-Prefix.pch";
+				INFOPLIST_FILE = "JETabBarControllerTests/JETabBarControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4267776199C536F00847905 /* Build configuration list for PBXProject "JETabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42677A5199C536F00847905 /* Debug */,
+				C42677A6199C536F00847905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42677A7199C536F00847905 /* Build configuration list for PBXNativeTarget "JETabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42677A8199C536F00847905 /* Debug */,
+				C42677A9199C536F00847905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C42677AA199C536F00847905 /* Build configuration list for PBXNativeTarget "JETabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42677AB199C536F00847905 /* Debug */,
+				C42677AC199C536F00847905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4267773199C536F00847905 /* Project object */;
+}
